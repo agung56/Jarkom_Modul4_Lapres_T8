@@ -25,7 +25,7 @@
 + Atur IP pada subnet A8. Atur IP pada interface **PASURUAN** yang mengarah ke *client* dengan **192.168.12.1**<br>
 ![7](./img/PASURUAN2.png)
 + Kemudian atur IP pada *client*<br>
-![8](./img/SIDOARJO.png)
+![8](./img/SIDOARJO.png)<br>
 `Catatan: Lakukan hal yang sama pada setiap device`
 + Lakukan routing agar semua device dapat terhubung
 + Routing pada **SURABAYA** yang mengarah ke subnet A8<br>
