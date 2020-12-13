@@ -40,12 +40,10 @@
   + Pada SURABAYA
     ```
     Network 192.168.12.0 Netmask 255.255.252.0 Next Hop 192.168.0.14
-    Network 192.168.0.8  Netmask 255.255.255.252 Next Hop 192.168.0.14
     Network 192.168.4.128 Netmask 255.255.255.128 Next Hop 192.168.0.14
     Network 192.168.24.0 Netmask 255.255.248.0 Next Hop 192.168.0.14
     Network 192.168.6.0 Netmask 255.255.254.0 Next Hop 192.168.0.6
     Network 192.168.8.0 Netmask 255.255.252.0 Next Hop 192.168.0.6
-    Network 192.168.0.0 Netmask 255.255.255.252 Next Hop 192.168.0.6
     Network 10.151.83.148 Netmask 255.255.255.252 Next Hop 192.168.0.6
     Network 192.168.2.0 Netmask 255.255.255.0 Next Hop 192.168.0.6
     Network 192.168.20.0 Netmask 255.255.252.0 Next Hop 192.168.0.6
@@ -69,4 +67,16 @@
     ```
     Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.1
     Network 192.168.20.0 Netmask 255.255.252.0 Next Hop 192.168.2.2
+    ```
+  + Pada PROBOLINGGO
+    ```
+    Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.9
+    ```
+  + Pada MADIUN
+    ```
+    Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.6.1
+    ```
+  + Pada BLITAR
+    ```
+    Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.2.1
     ```
