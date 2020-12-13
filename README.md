@@ -36,7 +36,7 @@
 1. Network 192.168.12.0 adalah Network ID yang akan dihubungkan
 2. Mask 255.255.252.0 adalah netmask dari subnet A8
 3. Next Hop 192.168.0.14 (disebut **gateway**), adalah IP yang dituju ketika ingin menuju subnet yang dituju, yaitu interface pada **PASURUAN** yang mengarah ke **SURABAYA**
-+ Berikut adalah IP yang diperlukan pada device-device tertentu
++ Berikut adalah sintaks yang diperlukan pada tiap router untuk melakukan routing
   + Pada SURABAYA
     ```
     Network 192.168.12.0 Netmask 255.255.252.0 Next Hop 192.168.0.14
