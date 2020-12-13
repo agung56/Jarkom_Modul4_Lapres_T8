@@ -31,7 +31,7 @@
 + Routing pada **SURABAYA** yang mengarah ke subnet A8<br>
 ![9](./img/routingsurabaya.png)
 + Routing pada **PASURUAN** yang mengarah ke **SURABAYA**<br>
-![10](./img/routingpasuruan.png)
+![10](./img/routingpasuruan.png)<br>
 ***Keterangan:***
 1. Network 192.168.12.0 adalah Network ID yang akan dihubungkan
 2. Mask 255.255.252.0 adalah netmask dari subnet A8
