@@ -8,14 +8,14 @@
 
 ### Metode VLSM
 **Langkah-langkah:**
-+ Pertama membuat topologi seperti pada gambar diatas pada Cisco Packet Tracer (CPT)
-+ Kemudian tambahkan port **NM-2FE2W** pada semua router kecuali **SURABAYA**. untuk router **SURABAYA** tambahkan port **NM-4E**
-+ Sambungkan kabel pada tiap device
-+ Lalu kelompokkan device menggunakan metode **VLSM**<br>
+1. Pertama-tama, membuat topologi seperti pada gambar diatas dengan menggunakan Cisco Packet Tracer (CPT)
+2. Kemudian tambahkan port **NM-2FE2W** pada semua router kecuali **SURABAYA**. Untuk router **SURABAYA** tambahkan port **NM-4E**
+3. Sambungkan kabel pada tiap device
+4. Lalu kelompokkan device menggunakan metode **VLSM**<br>
 ![2](./img/VLSM.png)
-+ Setelah dikelompokkan, hitung jumlah total client yang dibutuhkan dan berdasarkan jumlah tersebut tentukan subnet yang diperlukan <br>
+5. Setelah dikelompokkan, hitung jumlah total client yang dibutuhkan dan berdasarkan jumlah tersebut tentukan subnet yang diperlukan <br>
 ![3](./img/Pembagian%20IP%20router%20dan%20client.png)
-**Khusus untuk pembagian IP Pada Server menggunakan IP DMZ**
+**6. Khusus untuk pembagian IP Pada Server menggunakan IP DMZ**
 ![4](./img/Pembagian%20IP%20Server.png)
 + Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada VLSM. Interface dapat diatur pada menu Config -> Interface > “nama interface” (contoh: FastEthernet0/0). Kemudian, isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP pada subnet A8.
 + Atur IP pada interface **SURABAYA** yang mengarah ke **PASURUAN** dengan **192.168.0.13**<br>
@@ -33,10 +33,10 @@
 + Routing pada **PASURUAN** yang mengarah ke **SURABAYA**<br>
 ![10](./img/routingpasuruan.png)<br>
 ***Keterangan:***
-1. Network 192.168.12.0 adalah Network ID yang akan dihubungkan
-2. Mask 255.255.252.0 adalah netmask dari subnet A8
-3. Next Hop 192.168.0.14 (disebut **gateway**), adalah IP yang dituju ketika ingin menuju subnet yang dituju, yaitu interface pada **PASURUAN** yang mengarah ke **SURABAYA**
-+ Berikut adalah sintaks yang diperlukan pada tiap router untuk melakukan routing
+- Network 192.168.12.0 adalah Network ID yang akan dihubungkan
+- Mask 255.255.252.0 adalah netmask dari subnet A8
+- Next Hop 192.168.0.14 (disebut **gateway**), adalah IP yang dituju ketika ingin menuju subnet yang dituju, yaitu interface pada **PASURUAN** yang mengarah ke **SURABAYA**
+Berikut adalah sintaks yang diperlukan pada tiap router untuk melakukan routing
   + Pada SURABAYA
     ```
     Network 192.168.12.0 Netmask 255.255.252.0 Next Hop 192.168.0.14
